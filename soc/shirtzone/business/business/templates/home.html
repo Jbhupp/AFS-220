@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/home.css">
+    </head>
+<body>
+
+<h1>Southern Ohio Creations</h1>
+<p>Welcome to your custom clothing shop!</p>
+
+<body>
+    <header class="navbar"> 
+        <div class="container flex">
+            <h1 class="logo"> </h1> 
+            <nav>
+                <ul class="linkButtons">
+                    <li><a href="/home/"> Home </a></li>
+                    <li><a href="/gallery/"> Gallery </a></li>
+                    <li><a href="/about/"> About </a></li>
+                    <!-- <li><a href="sign_in.html"> Sign in </a></li> -->
+                    <li><a href="/random/"> Random </a></li>
+                    <li><a href="{% url 'admin:index' %}">Admin Login</a></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container grid">
+    
+            <div class="showcase-text">
+                <h1 class="header2"> </h1>
+                <p class="welcome">  
+                    On this page, you can order custom clothing with the design of your choice.  We can customize your logo for your business, sports team, schools, and anything else.
+                    We have showcased a few custom designs on our website for your viewing to get an idea of what we can do for you.
+                </p>
+            </div>
+
+            <div class="form-card">
+                <h2>Join our email list to recieve special discounts and limited time items.</h2>
+                <form> 
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="password" placeholder="password" required>
+                    </div>
+                    <input type="submit" value="Sign up" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>  
+
+    <main class="myContent">
+        <div class="container">
+            <div class="grid-3 text-center my-4">
+                
+            </div>
+        </div>
+    </main> 
+
+<footer>
+    All designs on this page are property of Southern Ohio Creations, LLC. .<br>  Copyright 2023 Southern Ohio Creations, LLC.
+</footer>
+</body>
+</html>
+
+</body>
+</html>
+
