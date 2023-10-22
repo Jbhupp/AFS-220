@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="/static/home.css">
-    </head>
-<body>
-
-<h1>Southern Ohio Creations</h1>
-<p>Welcome to your custom clothing shop!</p>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/static/home.css">
+    <title>Shirt Creations</title>
+    
+</head>
 <body>
     <header class="navbar"> 
         <div class="container flex">
-            <h1 class="logo"> </h1> 
+            <h1 class="logo"> Shirt Creations<i class="fas fa-sun"></i></h1>
             <nav>
                 <ul class="linkButtons">
                     <li><a href="/home/"> Home </a></li>
-                    <li><a href="/gallery/"> Gallery </a></li>
+                    <li> <a href="/gallery/"> Gallery </a></li>
                     <li><a href="/about/"> About </a></li>
-                    <!-- <li><a href="sign_in.html"> Sign in </a></li> -->
-                    <li><a href="/random/"> Random </a></li>
-                    <li><a href="{% url 'admin:index' %}">Admin Login</a></a></li>
-                    
+                    <li><a href="/contactus/"> Contact Us </a></li>
+                    <li><a href="/admin/">Admin Login</a></li>
+                    <a href=> </a>
                 </ul>
             </nav>
         </div>
@@ -28,17 +28,16 @@
 
     <section class="showcase">
         <div class="container grid">
-    
+            <img src="design.jpg">
             <div class="showcase-text">
-                <h1 class="header2"> </h1>
+                <h1 class="header2"> Welcome to my custom apparel page!</h1>
                 <p class="welcome">  
-                    On this page, you can order custom clothing with the design of your choice.  We can customize your logo for your business, sports team, schools, and anything else.
-                    We have showcased a few custom designs on our website for your viewing to get an idea of what we can do for you.
+                    On this page I will share a small portions of the designs that we have created and printed or embroidered on apparel or hats.  
                 </p>
             </div>
 
             <div class="form-card">
-                <h2>Join our email list to recieve special discounts and limited time items.</h2>
+                <h2>Please feel free to leave a comment or suggest a new design!</h2>
                 <form> 
                     <div class="form-control">
                         <input type="text" name="name" placeholder="Name">
@@ -47,9 +46,9 @@
                         <input type="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="form-control">
-                        <input type="text" name="password" placeholder="password" required>
+                        <input type="text" name="comments" placeholder="Comments" required>
                     </div>
-                    <input type="submit" value="Sign up" class="btn btn-primary">
+                    <input type="submit" value="send" class="btn btn-primary">
                 </form>
             </div>
         </div>
@@ -58,17 +57,16 @@
     <main class="myContent">
         <div class="container">
             <div class="grid-3 text-center my-4">
+                <article>
+                    A few short years back my sister, mom and myself deciding to start a little side business of creating designs for apparel or anything you need it on.  We have always had our own businesses and decided to try our hand at a new one.  It didn't take long before I fell in love with creating the designs, printing them on garments and seeing the final result.  We try our best to recreate your design you have or we create one from start to finish for you!     
+                </article>
+            
                 
             </div>
         </div>
     </main> 
-
-<footer>
-    All designs on this page are property of Southern Ohio Creations, LLC. .<br>  Copyright 2023 Southern Ohio Creations, LLC.
-</footer>
+    <footer>
+        All designs on this page are property of Jenni Hupp. All designs were created for customers who sent us what they had in mind and we put created it. If you would like to obtain a design please let me know.<br> Happy creating! <a> http://127.0.0.1:5500/capstone.html</a>  &copy; Copyright 2023 Jenni Hupp.
+    </footer>
 </body>
 </html>
-
-</body>
-</html>
-

@@ -8,5 +8,8 @@ def home(request):
 def about(request):
     return render(request, 'about.html')
 
-def random(request):
-    return render(request, 'random.html')
+def contactus(request):
+    return render(request, 'contactus.html')
+
+def gallery(request):
+    return render(request, 'gallery.html')
